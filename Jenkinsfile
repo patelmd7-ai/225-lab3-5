@@ -3,10 +3,10 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
-        DOCKER_IMAGE = 'cithit/roseaw'                                                                    //<------change this
+        DOCKER_IMAGE = 'cithit/patelmd7'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/miamioh-cit/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('roseaw-225')                                                         //<------change this
+        GITHUB_URL = 'https://github.com/patelmd7-ai/225-lab3-5.git'                                          //<------change this
+        KUBECONFIG = credentials('patelmd7-225')                                                         //<------change this
     }
 
     stages {
